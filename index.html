@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyber Security Tools</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Cyber Security Tools</h1>
+      <p class="subtitle">Simple educational tools for basic security checks</p>
+
+      <div class="card">
+        <h2>Password Strength Checker</h2>
+        <input id="passwordInput" type="password" placeholder="Enter a password" />
+        <button onclick="checkPassword()">Check Strength</button>
+        <p id="passwordResult"></p>
+      </div>
+
+      <div class="card">
+        <h2>Text Hash Generator</h2>
+        <input id="hashInput" type="text" placeholder="Enter text to hash" />
+        <button onclick="generateHash()">Generate Hash</button>
+        <p id="hashResult"></p>
+      </div>
+
+      <div class="card">
+        <h2>Port Checker</h2>
+        <input id="portInput" type="number" placeholder="Enter port number" />
+        <button onclick="checkPort()">Check Port</button>
+        <p id="portResult"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
